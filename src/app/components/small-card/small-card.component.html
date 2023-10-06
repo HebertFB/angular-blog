@@ -2,13 +2,12 @@
   <div class="container__small-card-content">
 
     <div class="small-card__photo">
-      <img src="https://miro.medium.com/v2/resize:fit:1358/0*qdHImq1G588SB9Ii.jpg
-    " alt="">
+      <img src="{{photoCover}}" alt="">
     </div>
 
     <div class="small-card__title">
-      <a href="#">
-        <h1>Small Card Title</h1>
+      <a [routerLink]="['content', id]">
+        <h1>{{cardTitle}}</h1>
       </a>
     </div>
   </div>
