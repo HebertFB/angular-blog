@@ -10,20 +10,20 @@
   justify-items: flex-start;
 }
 
-.big-card-photo > img {
+.big-card__photo > img {
   width: 100%;
   min-width: 400px;
 }
 
-.big-card-title > h1 {
+.big-card__title > h1 {
   font-size: 20px;
   margin-top: 15px;
 }
 
-.big-card-description {
+.big-card__description {
   margin-top: 20px;
 }
 
-.big-card-description > p > a {
+.big-card__description > p > a {
   color: grey;
 }
